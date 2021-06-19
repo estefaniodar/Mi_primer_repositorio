@@ -17,16 +17,18 @@ div footer{
     width: 600px;
 }
 div img{
-    width: 200px;
+    width: 100%;
 }
 .imgLogo{
+    width: 200px;
+    margin-right: 40px;
     animation-name: efecto;
     animation-duration: 4s;
 }
 @keyframes efecto{
     0%{
         width: 150px;
-        transform: rotate(45deg);
+        transform: rotate(30deg);
     }
     100%{
         width: 200px;
@@ -36,7 +38,7 @@ nav{
     width: 80%;
 }
 ul{
-    margin: 0;
+    margin-left: 20px;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -101,6 +103,7 @@ footer{
 .contenedor1{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 .columna1 h1{
     font-size: 18px;
@@ -140,8 +143,8 @@ footer{
     width: 100%;
     background-image: linear-gradient( rgb(61, 184, 255), rgb(168, 205, 243) );
     display: flex;
-    justify-content:left;
-    padding-top:20px;
+    padding:20px;
+    
 }
 .copyright{
     color:black;
