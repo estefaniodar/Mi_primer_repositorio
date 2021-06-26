@@ -14,7 +14,7 @@ header{
     
 }
 div footer{
-    width: 600px;
+    width: 400px;
 }
 div img{
     width: 100%;
@@ -34,6 +34,7 @@ div img{
         width: 200px;
     }
 }
+/*
 nav{
     width: 80%;
 }
@@ -58,7 +59,7 @@ a{
     color: black;
     margin-left: 20px;
     margin-bottom: 30px;
-}
+}*/
 /*////main/// */
 
 main{
@@ -107,20 +108,21 @@ footer{
 }
 .columna1 h1{
     font-size: 18px;
+    padding-left: 25px;
 }
 
 .row{
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
 }
 
 .row img{
-    width: 20px;
+    width: 45px;
     height: 20px;
+    margin-top: 20px;
 }
 .row label{
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     color: grey;
 }
 .columna2 h1{
@@ -143,7 +145,7 @@ footer{
     width: 100%;
     background-image: linear-gradient( rgb(61, 184, 255), rgb(168, 205, 243) );
     display: flex;
-    padding:20px;
+    padding: 20px;
     
 }
 .copyright{
