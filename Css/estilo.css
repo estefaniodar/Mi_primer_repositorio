@@ -80,13 +80,16 @@ aside{
     background-color:rgb(173, 207, 240);
     width: 30%;
     padding: 10px;
+    
+    
+    
 }
 .imagenAside{
     width: 100%;
 }
 article{
     border: 2px solid blue;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 
@@ -157,14 +160,14 @@ footer{
 
 #grilla{
     display: grid;
-    grid-template-columns: 30% 30%;
-    grid-template-rows: 250px 250px
-                        250PX 250PX;
-    grid-template-areas: "foto1 foto2"
-                         "foto3 foto4"
-                         "foto5 foto5";
-    row-gap: 25px;
-    column-gap: 25px;                    
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 300px 300px 300px
+                        300PX 300PX 300px;
+    grid-template-areas: "foto1 foto3  foto2"
+                         "foto5 foto4  foto5";
+                        
+    row-gap: 30px;
+    column-gap: 30px;                    
 }
 #imagenIluminacion{
     grid-area: foto1;
