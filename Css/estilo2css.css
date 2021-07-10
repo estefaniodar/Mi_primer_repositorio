@@ -1,5 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+section {
+  font-size: medium; }
+  section a {
+    color: #1f06ff;
+    text-decoration: none; }
+
 footer {
-  font-family: "Playfair Display", serif; }
+  font-family: "Otomanopee One", sans-serif; }
   footer h1 {
     color: #2e2efc; }
   footer label {
