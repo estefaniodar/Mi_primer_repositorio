@@ -19,6 +19,7 @@
   "homepage": "https://github.com/estefaniodar/Mi_primer_repositorio#readme",
   "devDependencies": {
     "node-sass": "^6.0.1",
+    "nodecom": "^1.0.1",
     "nodemon": "^2.0.12"
   },
   "description": ""

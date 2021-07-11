@@ -3,3 +3,35 @@
 @import "base/reset";
 @import "layout/main";
 @import "layout/footer";
+
+@mixin estiloTexto($colorText, $tamanioTexto, ) {
+    font-size: $tamanioTexto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: $colorText;
+    
+}
+
+h1{
+    @include estiloTexto(rgb(57, 214, 241), 30px, )
+}
+
+.nosotros1{
+    color: black;
+    font-size: 30px;
+    background-color: rgb(92, 92, 250);
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.nosotros2{
+    @extend .nosotros1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+}
+.nosotros3{
+    @extend .nosotros1;
+    font-size: 20px;
+    background-color: rgb(81, 81, 116);
+}

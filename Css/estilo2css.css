@@ -18,3 +18,25 @@ footer {
     color: #2e2efc; }
   footer .contenedor1 label {
     color: #2e2efc; }
+
+h1 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  background-color: #39d6f1; }
+
+.nosotros1, .nosotros2, .nosotros3 {
+  color: black;
+  font-size: 30px;
+  background-color: #5c5cfa;
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+.nosotros2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode"; }
+
+.nosotros3 {
+  font-size: 20px;
+  background-color: #515174; }
