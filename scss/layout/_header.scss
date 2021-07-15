@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div img{
+    width: 100%;
+}
+.imgLogo{
+    width: 200px;
+    margin-right: 40px;
+    animation-name: efecto;
+    animation-duration: 4s;
+}
+@keyframes efecto{
+    0%{
+        width: 150px;
+        transform: rotate(30deg);
+    }
+    100%{
+        width: 200px;
+    }
+}
+
+nav{
+    width: 80%;
+    ul{
+    margin-left: 20px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%; 
+    justify-content: space-between;   
+    }
+    li{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid black;
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    }
+}
