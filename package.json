@@ -22,5 +22,6 @@
     "nodecom": "^1.0.1",
     "nodemon": "^2.0.12"
   },
+  "dependencies": {},
   "description": ""
 }

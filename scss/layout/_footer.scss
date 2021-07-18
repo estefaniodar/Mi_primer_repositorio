@@ -6,7 +6,7 @@ footer{
     label{
         color:$tipografia-color;
     }
-    .contenedor1 label{
+    .contenedor1 .row label {
         color: $tipografia-color;
     }
 
@@ -28,26 +28,26 @@ div footer{
 .contenedor1{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
 
     .columna1 h1{
     font-size: 18px;
-    padding-left: 25px;
+    padding-left: 20px;
     }
 
-    .row{
+    .row label {
     margin-top: 10px;
     display: flex;
     }
 
     .row img{
-    width: 45px;
+    width: 50px;
     height: 20px;
     margin-top: 20px;
     }
     .row label{
-    margin-left: 50px;
-    color: grey;
+        margin-left: 40px;
+        margin-top: 5px;
     }
  
     .columna2 h1{
@@ -63,9 +63,9 @@ div footer{
     height: 20px;
     }
     .row2 label{
-    margin-left: 20px;
-    max-width: 160;
-    margin-top: 5px;
+        margin-left: 20px;
+        max-width: 160;
+        margin-top: 5px;
     
     }
 }

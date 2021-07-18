@@ -24,15 +24,6 @@ section{
         
     }
 }
-aside{
-    background-color:rgb(173, 207, 240);
-    width: 30%;
-    padding: 10px;
-    
-    .imagenAside{
-    width: 100%;
-    }
-}
 
 #grilla{
     display: grid;
@@ -42,8 +33,8 @@ aside{
     grid-template-areas: "foto1 foto3  foto2"
                          "foto5 foto4  foto5";
                         
-    row-gap: 30px;
-    column-gap: 30px;                    
+    row-gap: 40px;
+    column-gap: 40px;                    
 }
 #imagenIluminacion{
     grid-area: foto1;
